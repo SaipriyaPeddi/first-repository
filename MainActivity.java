@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 					}
 					Intent it=new Intent(MainActivity.this,ActivityLifeCycle.class);
 					startActivity(it);
-					finish();
+				
 			 }
 				catch(Exception e){}
 		}
